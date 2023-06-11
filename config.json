@@ -1,0 +1,10 @@
+{
+  "web": {
+    "browser": "Chrome",
+    "implicitly_wait": 10
+  },
+  "mobile": {
+    "device": "Android_11",
+    "implicitly_wait": 10
+  }
+}

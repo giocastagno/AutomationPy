@@ -1,0 +1,6 @@
+{
+  "name": "TestExample",
+  "description": "TestAutomation",
+  "otherParameter": true,
+  "isTest": true
+}

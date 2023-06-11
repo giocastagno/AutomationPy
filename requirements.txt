@@ -1,0 +1,15 @@
+pytest
+pytest-bdd
+pytest-html
+python-dateutil
+configparser
+allure-pytest
+assertpy
+requests
+selenium
+Appium-Python-Client~=2.7.1
+webdriver_manager == 3.5.1
+pytest-xdist == 2.4.0
+pytest-rerunfailures == 10.2
+pydantic
+random-word
