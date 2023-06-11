@@ -43,11 +43,6 @@ class MoTasks:
         MoTasks.get_element(driver, option).click()
 
     @staticmethod
-    def autocomplete(driver, text, autocomplete):
-        MoTasks.get_element(driver, autocomplete).send_keys(text)
-        MoTasks.get_element(driver, (By.XPATH, "//div[*/@autocomplete]/div/div/div/div")).click()
-
-    @staticmethod
     def scroll(driver, scroll):
         if scroll == 'HOME':
             driver.swipe(start_x=318, start_y=614, end_x=318, end_y=2048, duration=100)
