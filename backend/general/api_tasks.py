@@ -33,7 +33,7 @@ class ApiTasks:
     @staticmethod
     def __get_token(token='postAuthenticate(Required)'):
         base_url = read_config_from_current_env('base_url_api')
-        url_token = f"{base_url}/api/v2/identity/authenticate"
+        url_token = f"{base_url}/path/authenticator"
         headers = {"Content-Type": "application/json"}
         payload = ApiTasks.body_constructor('identity', token)
         response = requests.post(url=url_token, data=payload, headers=headers)
