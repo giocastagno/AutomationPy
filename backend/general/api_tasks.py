@@ -1,7 +1,6 @@
 import json
 import logging
 import pathlib
-import random
 
 import requests
 
@@ -165,9 +164,3 @@ class ApiTasks:
             response = None
         return response
         # endregion
-
-    @staticmethod
-    def random_rfc():
-        return f"{random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}{random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}" \
-               f"{random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}{random.randrange(100000, 999999)}" \
-               f"{random.randrange(110, 999)}"
